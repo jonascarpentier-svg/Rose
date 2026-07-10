@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
+import IntroScreen from "@/components/ui/IntroScreen";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -47,6 +48,8 @@ export default function RootLayout({
       className={`${cormorant.variable} ${inter.variable}`}
     >
       <body className="min-h-full flex flex-col">
+  <IntroScreen />
+
   <Navbar />
 
   <main className="flex-1">

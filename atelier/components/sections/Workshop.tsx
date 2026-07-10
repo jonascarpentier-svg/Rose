@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FadeIn from "@/components/ui/FadeIn";
+import Link from "next/link";
 
 export default function Workshop() {
   return (
@@ -27,9 +28,8 @@ export default function Workshop() {
           </h2>
 
           <p className="mt-8 leading-9 text-neutral-600">
-            Ce texte sera remplacé par ta présentation.
-            L'idée est d'expliquer ton approche,
-            ton exigence et le travail entièrement réalisé à la main.
+            Avec l'ambition de réaliser des pièces uniques d'une qualité irréprochable, chaque étape est réalisée par mes soins.
+            De la réalisation du lingot au polissage, je lamine mes plaques et fils, je brase je serti etc...
           </p>
           
           <blockquote className="mt-10 border-l-2 border-[#B58A3C] pl-6 italic leading-8 text-neutral-700">
@@ -37,9 +37,12 @@ export default function Workshop() {
           Mon rôle est de lui donner une forme qui traversera le temps. »
           </blockquote>
 
-          <button className="mt-10 rounded-full border border-[#B58A3C] px-8 py-3 transition hover:bg-[#B58A3C] hover:text-white">
-            En savoir plus
-          </button>
+          <Link
+          href="/atelier"
+          className="mt-10 inline-block rounded-full border border-[#B58A3C] px-8 py-3 transition hover:bg-[#B58A3C] hover:text-white"
+          >
+          Découvrir l'atelier
+          </Link>
 
         </div>
 

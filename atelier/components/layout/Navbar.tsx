@@ -74,6 +74,13 @@ export default function Navbar() {
           </Link>
 
           <Link
+            href="/atelier"
+            className={`transition-colors duration-300 hover:text-[#B58A3C] ${linkColor}`}
+          >
+            Atelier
+          </Link>
+
+          <Link
             href="/realisations"
             className={`transition-colors duration-300 hover:text-[#B58A3C] ${linkColor}`}
           >
@@ -82,9 +89,7 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className={`rounded-full border border-[#B58A3C] px-5 py-2 transition duration-300 hover:bg-[#B58A3C] hover:text-white ${
-              scrolled ? "text-[#1F1F1F]" : "text-white"
-            }`}
+            className={`transition-colors duration-300 hover:text-[#B58A3C] ${linkColor}`}
           >
             Contact
           </Link>

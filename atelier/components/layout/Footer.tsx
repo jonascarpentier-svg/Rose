@@ -57,7 +57,6 @@ export default function Footer() {
               <p>Création sur mesure</p>
               <p>Transformation de bijoux</p>
               <p>Réparation et restauration</p>
-              <p>Travail sur rendez-vous</p>
             </div>
           </div>
 

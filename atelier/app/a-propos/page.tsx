@@ -16,10 +16,9 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-10 leading-9 text-neutral-600">
-            Cette partie accueillera ton histoire,
-            ton parcours,
-            ta philosophie du métier
-            ainsi que les valeurs de l'atelier.
+            Chaque pièce est réalisée dans la tradition joaillère du travail à la cheville.
+            De l'alliage à la livraison tout est réalisé par mes soins sans intermédiaire. J'ai fais le choix d'un travail nécessitant le temps de la reflexion, la recherche des pierres auprès de fournisseurs de qualité et la production de pièces uniques. 
+
           </p>
 
           <blockquote className="mt-12 border-l-2 border-[#B58A3C] pl-6 italic text-xl leading-9 text-neutral-700">

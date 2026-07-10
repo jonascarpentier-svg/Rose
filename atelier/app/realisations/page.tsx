@@ -4,7 +4,7 @@ const bagues = [
   {
     image: "/images/ring.jpg",
     title: "Bagues",
-    description: "Créations sur mesure, alliances et transformations.",
+    description: "Créations sur mesure, alliances, bague de fiancailles et transformations.",
   },
 ];
 
@@ -12,7 +12,7 @@ const boucles = [
   {
     image: "/images/earrings.jpg",
     title: "Boucles d'oreilles",
-    description: "Pièces uniques réalisées artisanalement.",
+    description: "pendant, clou et autre créations.",
   },
 ];
 
@@ -20,7 +20,7 @@ const pendentifs = [
   {
     image: "/images/pendant.jpg",
     title: "Pendentifs",
-    description: "Travail du métal et mise en valeur des pierres.",
+    description: "pendentifs, collier, choker et autres.",
   },
 ];
 

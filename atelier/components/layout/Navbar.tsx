@@ -23,18 +23,18 @@ export default function Navbar() {
 
   const linkColor =
   scrolled || !isHome
-    ? "text-[#1F1F1F]"
-    : "text-white";
+    ? "text-[#2B2B2B]"
+    : "text-[#F5F2ED]";
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-300 ${
+      className={`fixed top-0 z-50 w-full transition-all duration-700 ${
         scrolled
-  ? "bg-white/95 shadow-md backdrop-blur-md"
-  : "bg-transparent"
+      ? "bg-[#EAE7E1]/92 shadow-lg backdrop-blur-xl"
+      : "bg-black/60 backdrop-blur-sm"
       }`}
     >
-      <nav className="mx-auto flex h-24 max-w-7xl items-center justify-between px-6 lg:px-8">
+       <nav className="mx-auto flex h-28 max-w-7xl items-center justify-between px-6 lg:px-8">
 
         {/* Logo + nom */}
         <Link
@@ -44,9 +44,9 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Les Trésors de la Rose"
-            width={60}
-            height={60}
-            className="h-14 w-auto"
+            width={90}
+            height={90}
+            className="h-20 w-auto"
             priority
           />
 

@@ -28,12 +28,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-700 ${
-        scrolled
-      ? "bg-[#EAE7E1]/92 shadow-lg backdrop-blur-xl"
-      : "bg-black/60 backdrop-blur-sm"
-      }`}
-    >
+      className="fixed top-0 z-50 w-full bg-black/85 backdrop-blur-md shadow-lg">
+    
        <nav className="mx-auto flex h-28 max-w-7xl items-center justify-between px-6 lg:px-8">
 
         {/* Logo + nom */}

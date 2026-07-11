@@ -3,12 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 export default function Navbar() {
 
   const [scrolled, setScrolled] = useState(false);
-  const pathname = usePathname();
-  const isHome = pathname === "/";
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -21,10 +18,7 @@ export default function Navbar() {
     };
   }, []);
 
-  const linkColor =
-  scrolled || !isHome
-    ? "text-[#2B2B2B]"
-    : "text-[#F5F2ED]";
+  const linkColor = "text-[#F8F5F0]";
 
   return (
     <header

@@ -4,17 +4,17 @@ import Image from "next/image";
 const categories = [
   {
     title: "Bagues",
-    image: "/images/ring.jpg",
+    image: "/images/Bague_fleur_emeraude_diamant.jpg",
     href: "/realisations#bagues",
   },
   {
     title: "Boucles d'oreilles",
-    image: "/images/earrings.jpg",
+    image: "/images/Boucle_ambre.jpg",
     href: "/realisations#boucles",
   },
   {
     title: "Pendentifs",
-    image: "/images/pendant.jpg",
+    image: "/images/Pendentif_emeraudes.jpg",
     href: "/realisations#pendentifs",
   },
 ];

@@ -16,11 +16,12 @@ export default function MentionsLegalesPage() {
 
           <p>
             <strong>Les Trésors de la Rose</strong><br />
-            [Prénom NOM]<br />
+            JONAS CARPENTIER<br />
             Micro-entrepreneur exerçant une activité de joaillerie artisanale.<br />
-            SIRET : [XXXXXXXXXXXXXX]<br />
-            Adresse : [adresse complète]<br />
-            Téléphone : [numéro de téléphone]<br />
+            SIRET : 91402404700039<br />
+            Adresse : 2 RUE Pierre Gilles de Gennes
+            86100 , Châtellerault - FRANCE<br />
+            Téléphone : 06 25 19 47 72<br />
             Email : [adresse email professionnelle]
           </p>
         </div>
@@ -29,7 +30,7 @@ export default function MentionsLegalesPage() {
           <h2 className="mb-3 text-2xl font-semibold">Directeur de la publication</h2>
 
           <p>
-            Monsieur [Prénom NOM], en qualité de dirigeant de l'entreprise individuelle
+            Monsieur Jonas Carpentier, en qualité de dirigeant de l'entreprise individuelle
             Les Trésors de la Rose.
           </p>
         </div>

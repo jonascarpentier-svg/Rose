@@ -18,10 +18,11 @@ export default function PolitiqueConfidentialitePage() {
 
           <p>
             <strong>Les Trésors de la Rose</strong><br />
-            [Prénom NOM]<br />
+            Jonas CARPENTIER<br />
             Micro-entrepreneur<br />
-            SIRET : [XXXXXXXXXXXXXX]<br />
-            Adresse : [adresse professionnelle]<br />
+            SIRET : 91402404700039<br />
+            Adresse : 2 RUE Pierre Gilles de Gennes
+            86100 , Châtellerault - FRANCE<br />
             Email : [adresse email professionnelle]
           </p>
         </div>

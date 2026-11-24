@@ -2,25 +2,50 @@ import GalleryCard from "@/components/gallery/GalleryCard";
 
 const bagues = [
   {
-    image: "/images/ring.jpg",
+    image: "/images/Bague_feuille_rubis.jpg",
     title: "Bagues",
-    description: "Créations sur mesure, alliances, bague de fiancailles et transformations.",
+    description: "Bague argent 925 et rubis non traité du mozambique",
+  },
+    {
+    image: "/images/Bague_fleur_amethyst.jpg",
+    title: "Bagues",
+    description: "Bague argent 925 et améthyste du brésil non traité",
+  },
+    {
+    image: "/images/Bague_fleur_emeraude_diamant.jpg",
+    title: "Bagues",
+    description: "Bague or 18K (750/1000ème) emeraude du brésil et diamants synthétique",
+  },
+    {
+    image: "/images/Bague_nature_aigue_marine.jpg",
+    title: "Bagues",
+    description: "Bague argent 925, fil d'or 18K (750/1000ème) aigue-marine et diamants synthétique",
+  },
+    {
+    image: "/images/Bague_nature_amethyste.jpg",
+    title: "Bagues",
+    description: "Bague argent 925 et améthyste du brésil",
+  },
+    {
+    image: "/images/Bague_nature_peridot.jpg",
+    title: "Bagues",
+    description: "Bague argent 925, feuilles et sertissure en or 18K (750/1000ème) et péridot",
   },
 ];
 
 const boucles = [
   {
-    image: "/images/earrings.jpg",
+    image: "/images/Boucle_ambre.jpg",
     title: "Boucles d'oreilles",
-    description: "pendant, clou et autre créations.",
+    description: "Boucles d'oreilles pendantes argent 925 et perles d'ambre",
   },
 ];
 
 const pendentifs = [
   {
-    image: "/images/pendant.jpg",
+    image: "/images/Pendentif_emeraudes.jpg",
     title: "Pendentifs",
-    description: "pendentifs, collier, choker et autres.",
+    description: "pendentif en argent 925, trio d'emeraude poire de Zambie et emeraude rectangle de zambie",
   },
 ];
 

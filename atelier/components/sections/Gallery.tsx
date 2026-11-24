@@ -3,17 +3,17 @@ import SectionTitle from "@/components/ui/SectionTitle";
 
 const creations = [
   {
-    image: "/images/ring.jpg",
+    image: "/images/Bague_fleur_emeraude_diamant.jpg",
     title: "Bagues",
     subtitle: "Créations et transformations",
   },
   {
-    image: "/images/earrings.jpg",
+    image: "/images/Boucle_ambre.jpg",
     title: "Boucles d'oreilles",
     subtitle: "Pièces uniques",
   },
   {
-    image: "/images/pendant.jpg",
+    image: "/images/pendantif_emeraudes.jpg",
     title: "Pendentifs",
     subtitle: "Travail artisanal",
   },

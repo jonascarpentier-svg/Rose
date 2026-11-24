@@ -16,13 +16,25 @@ export default function ContactPage() {
         <p className="mt-8 leading-8 text-neutral-600">
   Parlons de votre projet, d'une création sur mesure,
   d'une transformation ou d'une réparation.
-
-  Les informations transmises via ce formulaire sont utilisées uniquement pour répondre à votre demande et assurer le suivi de votre projet.
-  Pour en savoir plus sur l'utilisation de vos données personnelles et exercer vos droits, consultez notre politique de confidentialité.
-</p>
+        </p>
 
 <ContactForm />
 
+<p className="mt-6 text-sm italic leading-6 text-neutral-500">
+  Les informations transmises via ce formulaire sont utilisées
+  uniquement pour répondre à votre demande et assurer le suivi
+  de votre projet.
+  <br />
+  <br />
+  Pour en savoir plus sur l'utilisation de vos données personnelles
+  et exercer vos droits, consultez notre{" "}
+  <Link
+    href="/politique-confidentialite"
+    className="underline transition-colors hover:text-[#B58A3C]"
+  >
+    politique de confidentialité
+  </Link>.
+</p>
       </div>
 
     </main>

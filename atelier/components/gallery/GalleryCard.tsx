@@ -1,7 +1,8 @@
+
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type Props = {
   image: string;
@@ -15,6 +16,23 @@ export default function GalleryCard({
   description,
 }: Props) {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Fermeture avec la touche Echap
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen]);
 
   return (
     <>
@@ -45,27 +63,35 @@ export default function GalleryCard({
       {/* Affichage plein écran */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 p-6"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 p-4 sm:p-6"
           onClick={() => setIsOpen(false)}
         >
-          <button
-            className="absolute right-8 top-8 text-5xl text-white transition hover:scale-110"
-            onClick={() => setIsOpen(false)}
-          >
-            ×
-          </button>
-
+          {/* Image */}
           <div
-            className="relative h-[90vh] w-[90vw]"
+            className="relative h-[85vh] w-[90vw]"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
               src={image}
               alt={title}
               fill
+              priority
               className="object-contain"
             />
           </div>
+
+          {/* Bouton fermeture */}
+          <button
+            type="button"
+            aria-label="Fermer la photo"
+            onClick={(e) => {
+              e.stopPropagation();
+              setIsOpen(false);
+            }}
+            className="absolute right-4 top-4 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-black/70 text-4xl leading-none text-white shadow-lg transition hover:scale-110 hover:bg-black"
+          >
+            ×
+          </button>
         </div>
       )}
     </>
